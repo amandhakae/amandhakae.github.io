@@ -36,3 +36,11 @@ a:hover{
     text-decoration: none;
     color: pink;
 }
+
+comando-git{
+    padding: 5px;
+    font-size: 2rem;
+    border: 3px solid plum;
+    background-color: white;
+    color: #a78c8c;
+}
