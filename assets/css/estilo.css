@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 nav{
     height: 50px;
     background-color: #a78c8c;
@@ -6,6 +10,10 @@ nav{
     align-items: center;
     justify-content: end;
     list-style-type: none;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 nav li{
@@ -14,8 +22,16 @@ nav li{
 
 a{
     text-decoration: none;
+    color:rgb(139, 46, 201);
 }
 
+section{
+    min-width: 480px;
+    background-color: #a78c8c;
+    color: rgb(139, 46, 201);
+    padding: 10px;
+    border: 2px dotted #a78c8c;
+}
 a:hover{
     text-decoration: none;
     color: pink;
