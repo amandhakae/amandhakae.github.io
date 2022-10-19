@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    scroll-padding-top: 50px;
 }
 nav{
     height: 50px;
@@ -39,8 +40,16 @@ a:hover{
 
 comando-git{
     padding: 5px;
-    font-size: 2rem;
+    font-size: 1.25rem;
     border: 3px solid plum;
     background-color: white;
     color: #a78c8c;
+}
+
+p{
+    padding: 5px;
+}
+
+conteudo{
+    margin-top: 50px;
 }
